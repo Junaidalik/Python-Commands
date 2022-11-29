@@ -1,0 +1,54 @@
+1) git status' # To see the current changes you have made but not commited
+2) git add . # Add all new files/folder in tracke list
+3) git commit -m 'description about changes you have done'
+4) git log # See all your previous commits
+5) git checkout hashcode # Temprary move to previous commit with new branch
+6) git reset --hard 0d1d7fc32 # Go to previous commit permanentally (make sure you are in the branch where this commit exist)
+
+6) git branch # Detail of branches
+7) git checkout branchname # move to different branch
+8) git branch newBranchName # Create new branch
+9) git branch -D branchName # delete branch
+10) git merge BranchName # head would be where you want to merge that branch.
+
+            
+              Django Command SetUp
+
+1)pip install virtualenv # to install virtual enviroment globally on system
+2)python -m virtualenv enviromentName # to create enviroment in the project folder
+3)pip list
+4)pip freeze
+5)Set-ExecutionPolicy Unrestricted -Scope Process 
+6)venv\scripts\activate
+7)venv\scripts\deactivate
+8)rm -rf venv  # Remove the enviroment after deactivating
+9)python -m pip install Django
+10)django-admin startproject projectName # to create project 
+11)python manage.py makemigrations 
+12)python manage.py migrate
+13)python manage.py runserver  ----portNumber # port No. is optional default is 8000
+14)pyton manage.py startproject projectName  # to create a new project
+15)python manage.py createsuperuser # to create admin user name password
+16)pip install dejango-core-headers # to install CORS cross origin resourse sharing headers
+17)git clone
+18)git init
+19)pip install -r requirements.txt
+20)django-admin startproject projectName
+21) django-admin startapp appName
+
+
+
+# Github Account Push VS code
+
+1)git remote add origin URL
+2)git push origin master(branch name)
+
+
+# Docker 
+
+1)sudo docker run image_name(node, python etc) # this image(contain node installation and enviroment) will create a container. Image is a blueprint and containvr is a runing instance of that image, its a application can run on different server.
+
+2)sudo docker ps -a   # show all created container and their name and details etc.
+
+3)sudo docker run -it node
+
